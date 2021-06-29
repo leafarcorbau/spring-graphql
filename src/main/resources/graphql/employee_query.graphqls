@@ -1,0 +1,4 @@
+type Query {
+    employees:[EmployeeDto]
+    employee(id: ID):EmployeeDto
+}

@@ -1,0 +1,19 @@
+mutation {
+    createEmployee(input: {
+        firstName: "rafa",
+        lastName: "cornelio",
+        email: "r@gmail.com",
+        streetName: "xalapa",
+        houseNumber: 1,
+    })
+    {
+        id,
+        firstName,
+        lastName,
+        email,
+        address {
+            street,
+            number
+        }
+    }
+}

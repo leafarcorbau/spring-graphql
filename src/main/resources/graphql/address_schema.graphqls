@@ -1,0 +1,4 @@
+type AddressDto {
+    street: String,
+    number: Int,
+}

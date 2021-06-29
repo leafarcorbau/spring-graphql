@@ -1,0 +1,13 @@
+query {
+    employees
+    {
+        id,
+        firstName,
+        lastName,
+        email,
+        address {
+            street,
+            number
+        }
+    }
+}

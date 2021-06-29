@@ -1,0 +1,4 @@
+type Mutation {
+    createEmployee(input: CreateEmployeeDto!):EmployeeDto
+    deleteEmployee(employeeId: Int!):Int!
+}

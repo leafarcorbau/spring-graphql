@@ -1,0 +1,15 @@
+type EmployeeDto {
+    id: ID!,
+    firstName: String,
+    lastName: String,
+    email: String,
+    address: AddressDto
+}
+
+input CreateEmployeeDto {
+    firstName: String,
+    lastName: String,
+    email: String,
+    streetName: String,
+    houseNumber: Int,
+}
